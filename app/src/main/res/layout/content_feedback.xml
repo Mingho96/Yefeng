@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    android:orientation="vertical">
+
+    <com.example.administrator.yefeng.widget.TitleView
+        android:id="@+id/title_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"/>
+
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="200dp"
+         android:layout_marginTop="10dp"
+         android:padding="10dp"
+         android:layout_marginHorizontal="10dp"
+         android:background="@color/white">
+         <EditText
+             android:id="@+id/feed_content"
+             android:layout_width="match_parent"
+             android:layout_height="180dp"
+             android:inputType="textMultiLine"
+             android:gravity="top"
+             android:textSize="14sp"
+             android:textColorHint="#aaa"
+             android:hint="@string/feed_hint"
+             android:background="@color/white"/>
+         <TextView
+             android:id="@+id/ps"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:layout_alignParentBottom="true"
+             android:layout_marginBottom="30dp"
+             android:textColor="#999"
+             android:layout_marginRight="15dp"
+             android:text=""/>
+
+     </RelativeLayout>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:text="提交"/>
+
+</LinearLayout>

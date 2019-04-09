@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:background="@color/navigation_blue"/>
+
+    <com.example.administrator.yefeng.widget.TitleView
+        android:id="@+id/title_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"/>
+
+    <RelativeLayout
+        android:id="@+id/nickname_relative"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="修改昵称"
+            android:textColor="#000"/>
+        <EditText
+            android:id="@+id/nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="昵称"
+            android:lines="1"
+            android:background="#fff"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/email_relative"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="修改邮箱"
+            android:textColor="#000"/>
+        <EditText
+            android:id="@+id/user_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="xxxxxxxxx"
+            android:background="#fff"
+            android:lines="1"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/gender_relative"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="性别"
+            android:textColor="#000"/>
+        <RadioGroup
+            android:id="@+id/genderr"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/malee"
+                android:layout_width="wrap_content"
+                android:text="男"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/femalee"
+                android:layout_width="wrap_content"
+                android:text="女"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/submit_userinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="提交信息"
+        android:textColor="@color/white"
+        android:background="@drawable/button_shape"/>
+
+</LinearLayout>

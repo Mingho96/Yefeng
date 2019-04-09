@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--间距-->
+    <dimen name="divider_size">1dp</dimen>
+    <dimen name="margin_four">4dp</dimen>
+
+    <dimen name="margin_two">2dp</dimen>
+    <dimen name="margin_eight">8dp</dimen>
+    <dimen name="margin_eighteen">18dp</dimen>
+    <dimen name="margin_sixteen">16dp</dimen>
+
+    <dimen name="margin_fourteen">14dp</dimen>
+    <dimen name="margin_twelve">12dp</dimen>
+    <dimen name="margin_twenty">20dp</dimen>
+    <dimen name="margin_forty">40dp</dimen>
+
+    <dimen name="margin_senventy_two">72dp</dimen>
+    <!--控件宽度-->
+    <dimen name="title_height">44dp</dimen>
+
+    <dimen name="navigation_height">48dp</dimen>
+    <dimen name="widget_eighty">80dp</dimen>
+
+    <dimen name="widget_sixty">60dp</dimen>
+
+
+    <dimen name="banner_size">150dp</dimen>
+    <!--字体-->
+    <dimen name="big_size">36sp</dimen>
+    <dimen name="login_size">24sp</dimen>
+
+    <dimen name="title_size">18sp</dimen>
+    <dimen name="content_size">16sp</dimen>
+    <dimen name="tip_size">14sp</dimen>
+    <dimen name="small_size">12sp</dimen>
+
+    <dimen name="navigation_size">10sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

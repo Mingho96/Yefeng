@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">夜锋</string>
+    <string name="title_activity_loan_item">LoanItemActivity</string>
+    <string name="title_activity_linkman">LinkmanActivity</string>
+    <string name="answer_demo">\u3000\u3000现在智能手机都是用的锂电池，与镍氢电池相比，锂电池没有记忆效应，但这并不代表锂电池可以随便充电。锂电池的寿命，是用充电数次计算的。所谓的充电次数，是指电池完全放电，然后再完全充电的一个过程，这样算一次。
+
+　　一般情况下，手机锂电池充电次数达到500后，用户会感觉手机电池待机变短了。所以，要想延长手机电池的寿命，就是要减少电池的完全充放电次数。不过，每个品牌的手机对电池充电次数的定义不同，所以略微有些差异。
+</string>
+    <string name="feed_content_ps">还可以输入%d个字</string>
+    <string name="about_us">
+    \u3000\u3000本软件是基于游戏推广自主研发的一款轻量版软件，它界面干净，简易操作，安全性能高，给广大游戏玩家一
+    个良好的平台，在这里你可以尽情的下载各种你喜欢的游戏，但要下载游戏的话，你必须先注册成为我们
+    的用户，然后在进行登录，可以说是应有尽有，乐在其中。其次本软件共有三大版块，分别是资讯，首页，
+    我的，你可以查看咨讯，其中你可以看到一些最近游戏相关的热门推荐和最新资讯信息，可以查看具体的详情。
+    首页主要是不同游戏的分类，用户可以选择自己感兴趣的游戏进行下载，分别有角色，模拟，动作，卡牌，回合，
+    策略，即时等七个类别。再者是今日推荐的游戏，如果感兴趣，可以立即下载，最后是我的，在这里，你可以进
+    行修改自己的基本信息。
+
+
+    </string>
+    <string name="feed_hint">欢迎您使用夜锋游玩客户端，为了让您有更好的体验，请提出宝贵意见</string>
+    <string name="spacing">\u3000\u3000\u3000\u3000</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="game_description">最重要的一种就是摆回龙（堵怪模式），一张空白的地图,一张空白的地图</string>
+    <string name="goto_download">前往下载</string>
+    <string name="game_type">游戏类型</string>
+    <string name="game_name">名称</string>
+</resources>

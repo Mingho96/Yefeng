@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:textColor="#666"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="提示"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/navigation_blue"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="登录后享受更多的体验"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_shape"
+            android:text="再想想"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_shape"
+            android:text="去登录"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>

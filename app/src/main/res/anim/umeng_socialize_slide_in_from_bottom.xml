@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--载入动画，duration持续时间。
+    fromXDelta从左侧或右侧载入动画，为正数时候从右侧向左侧载入。负数时候相反。
+    fromYDelta从上面或下面载入动画，为正数时候从下面载入动画，负数相反。
+    上面两个属性可以结合使用，效果自己试试。
+    toXDelta，toYDelta属于回撤动画。没有特别要求不会使用
+-->
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="1600"
+    android:fromXDelta="00.0%"
+    android:fromYDelta="50.0%"
+    android:toXDelta="0.0%"
+    android:toYDelta="0.0%"
+    >
+
+
+</translate>

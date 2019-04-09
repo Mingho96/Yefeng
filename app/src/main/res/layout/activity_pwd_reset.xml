@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".page.login.activity.RegistActivity">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:background="@color/navigation_blue"/>
+    <com.example.administrator.yefeng.widget.TitleView
+        android:id="@+id/title_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textSize="16sp"
+            android:text="原密码："/>
+        <EditText
+            android:id="@+id/cur_password"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="12dp"
+            android:background="@color/white"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textSize="16sp"
+            android:text="新密码："/>
+        <EditText
+            android:id="@+id/new_password"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="12dp"
+            android:inputType="textPassword"
+            android:background="@color/white"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textSize="16sp"
+            android:text="确认密码："/>
+        <EditText
+            android:id="@+id/re_password"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="12dp"
+            android:inputType="textPassword"
+            android:background="@color/white"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/navigation_blue"
+        android:textColor="@color/white"
+        android:text="确定"/>
+</LinearLayout>

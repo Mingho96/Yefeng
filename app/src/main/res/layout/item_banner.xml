@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+   <com.makeramen.roundedimageview.RoundedImageView
+       android:id="@+id/banner_image"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       app:riv_corner_radius="7dp"
+       android:layout_marginHorizontal="2dp"
+       android:scaleType="centerCrop"/>
+</android.support.constraint.ConstraintLayout>

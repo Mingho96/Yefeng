@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/test0"
+    android:layout_margin="15dp"
+    android:orientation="horizontal">
+
+
+    <RelativeLayout
+        android:id="@+id/card_relative"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:id="@+id/card_img"
+            android:layout_margin="8dp"
+            android:layout_width="120dp"
+            android:layout_height="90dp"
+            />
+        <LinearLayout
+            android:layout_toRightOf="@id/card_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/card_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="8dp"
+                android:textColor="#000"
+                android:text=""/>
+            <TextView
+                android:id="@+id/card_extract"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_marginLeft="8dp"
+                android:text="100%"/>
+            <TextView
+                android:id="@+id/card_state"
+                android:paddingTop="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="#e2952f"
+                android:text=""/>
+        </LinearLayout>
+    </RelativeLayout>
+    <!--<ImageView
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@mipmap/goquest"/>-->
+</LinearLayout>

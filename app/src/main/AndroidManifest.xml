@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.administrator.yefeng">
+    <!--连接网络权限-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--读写内存块权限-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <!--调用相机权限-->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name="com.example.administrator.yefeng.app.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_blue"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_blue"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.example.administrator.yefeng.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:ignore="WrongManifestParent">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name="com.example.administrator.yefeng.page.main.activity.MainActivity" />
+        <activity android:name="com.example.administrator.yefeng.page.login.activity.LoginActivity" />
+        <activity android:name="com.example.administrator.yefeng.page.homepage.activity.CardActivity" />
+        <activity android:name="com.example.administrator.yefeng.page.main.activity.WebActivity" />
+        <activity android:name="com.example.administrator.yefeng.page.homepage.activity.LoanActivity" />
+        <activity android:name="com.example.administrator.yefeng.page.information.activity.InformationItemActivity" />
+        <activity android:name="com.example.administrator.yefeng.page.user.activity.FAQActivity" />
+        <activity android:name="com.example.administrator.yefeng.page.user.activity.AboutUsActivity" />
+        <activity android:name="com.example.administrator.yefeng.page.user.activity.UserInfoActivity" />
+        <activity
+            android:name="com.example.administrator.yefeng.page.user.activity.FeedBackActivity"
+            android:label="@string/title_activity_linkman"
+            android:theme="@style/AppTheme" />
+        <activity android:name="com.example.administrator.yefeng.page.user.activity.SettingActivity" />
+        <activity android:name="com.example.administrator.yefeng.page.user.activity.CenterActivity" />
+        <activity android:name="com.example.administrator.yefeng.page.user.activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.administrator.yefeng.page.main.activity.Splash2Activity" />
+        <activity android:name="com.example.administrator.yefeng.page.login.activity.RegistActivity"/>
+        <activity android:name="com.example.administrator.yefeng.page.login.activity.PwdResetActivity"/>
+    </application>
+
+</manifest>

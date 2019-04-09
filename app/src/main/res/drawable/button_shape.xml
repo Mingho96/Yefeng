@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <shape>
+            <corners android:radius="3dp"/>
+            <solid android:color="@color/navigation_blue" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape>
+            <corners android:radius="3dp"/>
+            <padding
+                android:top="3dp"
+                />
+            <gradient
+                android:angle="90"
+                android:startColor="@color/navigation_blue"
+                android:centerColor="#1e9fff"
+                android:endColor="@color/navigation_blue"/>
+        </shape>
+    </item>
+</selector>
